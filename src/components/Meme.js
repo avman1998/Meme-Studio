@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 export default function Meme() {
- const [meme, setMeme] = useState({
+  const [meme, setMeme] = useState({
     topText: "",
     bottom: "",
     randomImage: "http://i.imgflip.com/1bij.jpg",
   });
   function showTextOnImage(event) {
-    const { value, type, name } = event.target;
+    const { value, name } = event.target;
     setMeme((prevMeme) => {
       return {
         ...prevMeme,
@@ -57,7 +57,7 @@ export default function Meme() {
         </button>
       </div>
       <div className="meeme">
-        <img src={meme.randomImage} className="MemeImage" />
+        <img src={meme.randomImage} className="MemeImage" alt="MEME" />
         <h2 className="meme--text top">{meme.topText}</h2>
         <h2 className="meme--text bottom">{meme.bottom}</h2>
       </div>
