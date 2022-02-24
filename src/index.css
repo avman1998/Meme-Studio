@@ -10,7 +10,7 @@ body {
   font-family: "Dancing Script", cursive;
   font-family: "Pacifico", cursive;
   font-family: "Work Sans", sans-serif;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 main {
   padding: 36px;
@@ -144,5 +144,8 @@ main {
 
   .meme--text {
     font-size: 1.5em;
+  }
+  body {
+    overflow-y: auto;
   }
 }
