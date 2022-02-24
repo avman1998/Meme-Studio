@@ -125,6 +125,14 @@ main {
   top: 0;
 }
 
+.creator {
+  margin: 60px;
+  text-align: center;
+  font-family: "Abel", sans-serif;
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+  color: darkslategrey;
+}
+
 @media only screen and (max-width: 768px) {
   .meme_header {
     min-width: 100%;
@@ -132,5 +140,9 @@ main {
 
   .form--input {
     width: 100%;
+  }
+
+  .meme--text {
+    font-size: 1.5em;
   }
 }

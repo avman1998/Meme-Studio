@@ -60,6 +60,7 @@ export default function Meme() {
         <h2 className="meme--text top">{meme.topText}</h2>
         <h2 className="meme--text bottom">{meme.bottom}</h2>
       </div>
+      <h2 className="creator">Developed by Aman Verma</h2>
     </main>
   );
 }
