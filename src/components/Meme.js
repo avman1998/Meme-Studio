@@ -31,7 +31,6 @@ export default function Meme() {
       };
     });
     meme.topText = meme.bottom = "";
-    console.log(url);
   }
   return (
     <main>
